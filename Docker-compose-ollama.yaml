@@ -6,7 +6,7 @@ services:
       - "11434:11434"
     volumes:
       - ollama-data:/root/.ollama
-    environment:
-      - OLLAMA_MODELS=llama3
+      - ./start.sh:/start.sh:ro
+    entrypoint: ["/bin/bash", "/start.sh"]
 volumes:
   ollama-data:

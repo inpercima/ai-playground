@@ -22,8 +22,8 @@ sudo docker compose -f Docker-compose-ollama.yaml up
 
 ### 2. Spring Boot Anwendung bauen & starten
 ```bash
-mvn clean package
-mvn spring-boot:run
+./mvnw clean package
+./mvnw spring-boot:run
 ```
 
 ### 3. Testen des Endpoints
