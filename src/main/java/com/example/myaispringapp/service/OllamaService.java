@@ -23,7 +23,8 @@ public class OllamaService {
         Map<String, Object> requestBody = Map.of(
                 "model", "llama3",
                 "prompt", prompt,
-                "stream", false // wichtig: kein Streaming
+                "stream", false, // wichtig: kein Streaming
+                "temperature", 0
         );
 
         HttpHeaders headers = new HttpHeaders();
