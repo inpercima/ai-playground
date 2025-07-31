@@ -1,4 +1,4 @@
-# my-ai-springapp
+# my-ai-springapp (AI generated)
 
 Java Spring Boot REST API mit Ollama llama3 Integration
 
